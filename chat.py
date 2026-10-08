@@ -64,9 +64,9 @@ def _int(name, default=0):
 
 
 BOT_TOKEN = os.getenv("8686219620:AAEWdGKq92M8RdIjYzF-nHo7F_C2pJOMrhc", "8686219620:AAEWdGKq92M8RdIjYzF-nHo7F_C2pJOMrhc").strip()
-OWNER_ID = _int("8825649789")                  # আপনার Telegram user id
-LOG_GROUP_ID = _int("-1004384439756")          # টপিক গ্রুপের id (-100...)
-LOG_TOPIC_ID = _int("LOG_TOPIC_ID", 17)      # টপিক id
+OWNER_ID = 8825649789
+LOG_GROUP_ID = -1004384439756
+LOG_TOPIC_ID = 17
 STATE_MESSAGE_ID = _int("STATE_MESSAGE_ID")  # ঐচ্ছিক (পরে বসাতে পারবেন)
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()  # ঐচ্ছিক, প্যানেল থেকেও দেওয়া যায়
